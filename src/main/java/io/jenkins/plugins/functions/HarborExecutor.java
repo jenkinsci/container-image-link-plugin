@@ -14,8 +14,8 @@ public class HarborExecutor implements io.jenkins.plugins.interfaces.Executor {
         this.url = url;
     }
 
-    public static String getStatus() {
-        return "list";
+    public String getStatus() {
+        return url;
     }
 
     @Override

@@ -34,6 +34,7 @@ public class CreateHarborServerStep extends AbstractStepImpl {
         @Override
         protected String runStep() throws Exception {
             HarborExecutor HarborExecutor = new HarborExecutor(build, step.getUrl());
+            listener.getLogger().println(step.getUrl());
             HarborExecutor.execute();
             return HarborExecutor.getStatus();
         }
