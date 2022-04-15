@@ -49,12 +49,12 @@ public class CreateHarborServerStep extends AbstractStepImpl {
 
         @Override
         public String getFunctionName() {
-            return "newImageLink";
+            return "containerImageLink";
         }
 
         @Override
         public String getDisplayName() {
-            return "Returns new Harbor server";
+            return "Returns new Container Image Link";
         }
 
         @Override

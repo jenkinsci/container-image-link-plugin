@@ -15,7 +15,7 @@ public class HarborBadgeAction implements BuildBadgeAction {
     }
 
     public String getIconFileName() {
-        return "/plugin/container-image-link/images/harbor-icon.png";
+        return "/plugin/container-image-link/images/docker.svg";
     }
 
     public String getDisplayName() {
