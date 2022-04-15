@@ -14,7 +14,7 @@ you can invoke this step on a scripted pipeline with the following command plus 
 , the badge can live with other badges like artifactory badge or sonarqube badge which appears at 
 the same location when others plugins are installed
 ```
-newImageLink "URL"
+containerImageLink "URL"
 ```
 ## Issues
 
