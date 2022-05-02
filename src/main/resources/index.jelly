@@ -1,4 +1,4 @@
 <?jelly escape-by-default='true'?>
 <div>
-    This plugin allow to add a badge and a permalink in the ui with a customizable url that redirect the traffic to your docker image repository (harbor, DockerHub, AWS registry, AZURE registry, GOOGLE registry )
+    This plugin allow to add a badge and a permalink in the ui with a customizable url that redirect the traffic to your desired docker image repository
 </div>
