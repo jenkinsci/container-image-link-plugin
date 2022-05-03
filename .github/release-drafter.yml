@@ -1,2 +1,1 @@
 _extends: .github
-tag-template: harbor-plugin-$NEXT_MINOR_VERSION
