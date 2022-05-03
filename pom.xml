@@ -40,7 +40,7 @@
         <dependency>
             <groupId>org.jenkins-ci.main</groupId>
             <artifactId>jenkins-test-harness-htmlunit</artifactId>
-            <version>66.v712ea44bccba</version>
+            <version>87.vb_95a_71e7b_b_b_0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -88,7 +88,7 @@
 
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>container-image-link</artifactId>
-    <version>${revision}${changelist}</version>
+    <version>${changelist}</version>
     <packaging>hpi</packaging>
     <name>Container Image Link</name>
 
@@ -100,8 +100,7 @@
     </licenses>
 
    <properties>
-        <revision>1.0</revision>
-        <changelist>-RELEASE</changelist>
+        <changelist>999999-SNAPSHOT</changelist>
         <jenkins.version>2.277.1</jenkins.version>
         <java.level>8</java.level>
     </properties>
