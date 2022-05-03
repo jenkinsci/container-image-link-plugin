@@ -51,7 +51,7 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-job</artifactId>
-            <version>2.0</version>
+            <version>1180.v04c4e75dce43</version>
         </dependency>
 
         <dependency>
@@ -88,7 +88,7 @@
 
     <groupId>io.jenkins.plugins</groupId>
     <artifactId>container-image-link</artifactId>
-    <version>${revision}${changelist}</version>
+    <version>${changelist}</version>
     <packaging>hpi</packaging>
     <name>Container Image Link</name>
 
@@ -100,8 +100,7 @@
     </licenses>
 
    <properties>
-        <revision>1.0</revision>
-        <changelist>-RELEASE</changelist>
+        <changelist>999999-SNAPSHOT</changelist>
         <jenkins.version>2.277.1</jenkins.version>
         <java.level>8</java.level>
     </properties>
