@@ -57,7 +57,7 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-support</artifactId>
-            <version>3.8</version>
+            <version>833.va_1c71061486b_</version>
         </dependency>
 
         <dependency>
