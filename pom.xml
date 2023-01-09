@@ -40,7 +40,7 @@
         <dependency>
             <groupId>org.jenkins-ci.main</groupId>
             <artifactId>jenkins-test-harness-htmlunit</artifactId>
-            <version>66.v712ea44bccba</version>
+            <version>130.v75a_e99950987</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
